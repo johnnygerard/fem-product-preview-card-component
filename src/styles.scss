@@ -1,6 +1,13 @@
 @use "index" as *;
 
 body {
+  // Typography
+  font-feature-settings:
+    "clig" off,
+    "liga" off;
+  font-style: normal;
+  line-height: normal;
+
   // Center content for manual testing
   display: grid;
   place-items: center;
