@@ -2,11 +2,26 @@
 
 :host {
   display: block;
+  position: relative;
+
+  @include mobile {
+    height: 240px;
+  }
+
+  @include desktop {
+    width: 300px;
+  }
 }
 
-@include mobile {
-  img {
-    object-fit: cover;
-    width: calc(100vw - 32px);
+img {
+  object-fit: cover;
+
+  @include mobile {
+    width: 100%;
+    border-radius: $root-border-radius $root-border-radius 0 0;
+  }
+
+  @include desktop {
+    border-radius: $root-border-radius 0 0 $root-border-radius;
   }
 }
