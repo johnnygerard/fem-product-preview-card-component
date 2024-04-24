@@ -1,8 +1,10 @@
 import { ApplicationConfig } from "@angular/core";
-import { provideRouter } from "@angular/router";
-
-import { routes } from "./app.routes";
+import { provideImageKitLoader } from "@angular/common";
 
 export const appConfig: ApplicationConfig = {
-  providers: [provideRouter(routes)],
+  providers: [
+    provideImageKitLoader(
+      "https://ik.imagekit.io/jgerard/fem-product-preview-card-component",
+    ),
+  ],
 };
