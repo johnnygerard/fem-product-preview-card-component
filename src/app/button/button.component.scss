@@ -1,0 +1,29 @@
+@use "index" as *;
+
+:host {
+  display: block;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  padding: 0 16px;
+  border-radius: 8px;
+  height: 48px;
+  background-color: $color-accent;
+
+  &:is(:hover, :focus-visible) {
+    background-color: $color-accent-hover;
+  }
+
+  &:focus-visible {
+    outline: 2px solid $color-background;
+    outline-offset: -4px;
+  }
+}
+
+.label {
+  @include typo-button;
+}
