@@ -17,7 +17,9 @@ if (environment.production) {
       "padding: 0 12px;",
   );
   console.log("Challenge by Frontend Mentor. Coded by Johnny Gérard.");
-  console.log("Code repository: https://github.com/johnnygerard/fem-product-preview-card-component");
+  console.log(
+    "Code repository: https://github.com/johnnygerard/fem-product-preview-card-component",
+  );
   console.log("Portfolio: https://www.frontendmentor.io/profile/johnnygerard");
 }
 
