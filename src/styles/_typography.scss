@@ -1,0 +1,49 @@
+@use "colors" as *;
+
+@mixin typo-overline {
+  color: $color-light-text;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 5px;
+}
+
+@mixin typo-heading {
+  color: $color-dark-text;
+  font-family: Fraunces;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+@mixin typo-body {
+  color: $color-light-text;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 23px;
+}
+
+@mixin typo-button {
+  color: $color-background;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+@mixin typo-price-small {
+  color: $color-light-text;
+  font-family: Montserrat;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 23px;
+  text-decoration-line: strikethrough;
+}
+
+@mixin typo-price-big {
+  color: $color-accent;
+  font-family: Fraunces;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+}
