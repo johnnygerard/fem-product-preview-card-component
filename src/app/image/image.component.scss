@@ -2,10 +2,14 @@
 
 :host {
   display: block;
+  position: relative;
 
   @include mobile {
-    position: relative;
     height: 240px;
+  }
+
+  @include desktop {
+    width: 300px;
   }
 }
 
