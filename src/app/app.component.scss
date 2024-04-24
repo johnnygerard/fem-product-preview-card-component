@@ -21,12 +21,12 @@
   background-color: $color-background;
 
   @include mobile {
-    border-radius: 0 0 10px 10px;
+    border-radius: 0 0 $root-border-radius $root-border-radius;
     padding: 24px;
   }
 
   @include desktop {
-    border-radius: 0 10px 10px 0;
+    border-radius: 0 $root-border-radius $root-border-radius 0;
     padding: 32px;
   }
 }

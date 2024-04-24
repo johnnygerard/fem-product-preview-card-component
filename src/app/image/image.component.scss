@@ -14,10 +14,10 @@ img {
 
   @include mobile {
     width: 100%;
-    border-radius: 10px 10px 0 0;
+    border-radius: $root-border-radius $root-border-radius 0 0;
   }
 
   @include desktop {
-    border-radius: 10px 0 0 10px;
+    border-radius: $root-border-radius 0 0 $root-border-radius;
   }
 }
