@@ -1,0 +1,27 @@
+<img
+  *ngIf="isMobile; else desktop"
+  [ngSrc]="'mobile/' + IMG_NAME"
+  ngSrcset="343w, 433w, 547w, 691w, 872w"
+  sizes="calc(100vw - 32px)"
+  width="343"
+  height="240"
+  placeholder
+  priority
+  alt=""
+/>
+
+<ng-template #desktop>
+  <img
+    [ngSrc]="'desktop/' + IMG_NAME"
+    ngSrcset="1x, 1.5x, 2x, 2.5833333333333335x"
+    width="300"
+    height="450"
+    placeholder
+    priority
+    alt=""
+  />
+</ng-template>
+
+<!-- Transformation parameters: -->
+<!--   - Mobile: ?tr=w-872,h-610.41,cm-extract,y-276.55 -->
+<!--   - Desktop: ?tr=w-774.67,h-1162,cm-extract,fo-left -->

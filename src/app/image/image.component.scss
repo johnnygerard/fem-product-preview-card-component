@@ -1,0 +1,12 @@
+@use "index" as *;
+
+:host {
+  display: block;
+}
+
+@include mobile {
+  img {
+    object-fit: cover;
+    width: calc(100vw - 32px);
+  }
+}
