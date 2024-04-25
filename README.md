@@ -2,7 +2,7 @@
 
 This is my solution to the [Product preview card component challenge](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa) from [Frontend Mentor](https://www.frontendmentor.io/).
 
-[![project status](https://img.shields.io/badge/status-solution%20published-success?style=for-the-badge)](https://fem-product-preview-card-component-jgerard.vercel.app)
+[![project status](https://img.shields.io/badge/status-solution%20published-success?style=for-the-badge)](https://www.frontendmentor.io/solutions/product-preview-card-component-with-404-OFsbTsDSQ-)
 
 ## Tech Stack
 
@@ -29,7 +29,7 @@ This is my solution to the [Product preview card component challenge](https://ww
 ## Links
 
 - [Website](https://fem-product-preview-card-component-jgerard.vercel.app) hosted with [Vercel](https://vercel.com/)
-<!-- - [Solution]() -->
+- [Solution](https://www.frontendmentor.io/solutions/product-preview-card-component-with-404-OFsbTsDSQ-)
 - [Lighthouse report](https://googlechrome.github.io/lighthouse/viewer/?gist=3bdd3ce93f4b3f6b1ea39c851d345be8)
 
 ## Screenshots
