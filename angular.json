@@ -47,7 +47,7 @@
             "polyfills": ["zone.js"],
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
-            "assets": ["src/favicon-32x32.png", "src/assets"],
+            "assets": ["src/assets", "src/favicon-32x32.png", "src/robots.txt"],
             "stylePreprocessorOptions": {
               "includePaths": ["src/styles"]
             },
@@ -108,7 +108,7 @@
             "polyfills": ["zone.js", "zone.js/testing"],
             "tsConfig": "tsconfig.spec.json",
             "inlineStyleLanguage": "scss",
-            "assets": ["src/favicon-32x32.png", "src/assets"],
+            "assets": ["src/assets", "src/favicon-32x32.png", "src/robots.txt"],
             "stylePreprocessorOptions": {
               "includePaths": ["src/styles"]
             },
