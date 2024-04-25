@@ -2,7 +2,7 @@
 
 This is my solution to the [Product preview card component challenge](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa) from [Frontend Mentor](https://www.frontendmentor.io/).
 
-[![project status](https://img.shields.io/badge/status-work%20in%20progress-red?style=for-the-badge)](https://fem-product-preview-card-component-jgerard.vercel.app)
+[![project status](https://img.shields.io/badge/status-solution%20published-success?style=for-the-badge)](https://fem-product-preview-card-component-jgerard.vercel.app)
 
 ## Tech Stack
 
@@ -12,6 +12,8 @@ This is my solution to the [Product preview card component challenge](https://ww
 ## Main Features
 
 - Standalone components
+- Page not found component
+- [NgOptimizedImage](https://angular.dev/guide/image-optimization) with placeholder
 - [ImageKit CDN](https://imagekit.io/)
 - Shell scripting (see [PR #1](https://github.com/johnnygerard/fem-product-preview-card-component/pull/1))
 - [GitHub Actions](.github/workflows):
@@ -28,14 +30,17 @@ This is my solution to the [Product preview card component challenge](https://ww
 
 - [Website](https://fem-product-preview-card-component-jgerard.vercel.app) hosted with [Vercel](https://vercel.com/)
 <!-- - [Solution]() -->
+- [Lighthouse report](https://googlechrome.github.io/lighthouse/viewer/?gist=3bdd3ce93f4b3f6b1ea39c851d345be8)
 
-<!-- ## Screenshots
+## Screenshots
+
 ### Mobile
+
 ![mobile screenshot](screenshots/mobile.avif)
-### Tablet
-![tablet screenshot](screenshots/tablet.avif)
+
 ### Desktop
-![desktop screenshot](screenshots/desktop.avif) -->
+
+![desktop screenshot](screenshots/desktop.avif)
 
 ## About Frontend Mentor
 
