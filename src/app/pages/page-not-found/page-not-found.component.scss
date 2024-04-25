@@ -1,0 +1,57 @@
+@use "index" as *;
+
+:host {
+  display: flex;
+  flex-direction: column;
+  background-color: $color-background;
+  border-radius: $root-border-radius;
+  margin: 32px 16px;
+
+  @include mobile {
+    padding: 24px;
+  }
+
+  @include desktop {
+    padding: 32px;
+  }
+}
+
+.overline {
+  @include typo-overline;
+}
+
+.heading {
+  @include typo-heading;
+  margin: 12px 0 16px;
+
+  @include desktop {
+    margin: 20px 0 24px;
+  }
+}
+
+.body {
+  @include typo-body;
+}
+
+.link {
+  @include typo-button;
+  background-color: $color-accent;
+  text-align: center;
+  text-decoration: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  margin-top: 20px;
+
+  @include desktop {
+    margin-top: 28px;
+  }
+
+  &:is(:hover, :focus-visible) {
+    background-color: $color-accent-hover;
+  }
+
+  &:focus-visible {
+    outline: 2px solid $color-background;
+    outline-offset: -4px;
+  }
+}
