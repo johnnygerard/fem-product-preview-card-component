@@ -36,10 +36,11 @@ This is my solution to the [Product preview card component challenge](https://ww
   - [Production](.github/workflows/vercel-production.yaml)
 - [CodeQL analysis](https://codeql.github.com/) (see [workflow](.github/workflows/codeql.yaml))
 
-## Developer Tools
+## Environment & Tools
 
-- VS Code
-- Figma
+- System: [Ubuntu](https://ubuntu.com/) (GNU/Linux)
+- IDE: [Visual Studio Code](https://code.visualstudio.com/)
+- Design: [Figma](https://www.figma.com/)
 
 ## VS Code Extensions
 
