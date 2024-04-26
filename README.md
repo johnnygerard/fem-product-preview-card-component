@@ -4,33 +4,49 @@ This is my solution to the [Product preview card component challenge](https://ww
 
 [![project status](https://img.shields.io/badge/status-solution%20published-success?style=for-the-badge)](https://www.frontendmentor.io/solutions/product-preview-card-component-with-404-OFsbTsDSQ-)
 
+## Links
+
+- [Live website](https://fem-product-preview-card-component.vercel.app/)
+- [Solution](https://www.frontendmentor.io/solutions/product-preview-card-component-with-404-OFsbTsDSQ-)
+- [Challenge](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa)
+- [Lighthouse report](https://googlechrome.github.io/lighthouse/viewer/?gist=3bdd3ce93f4b3f6b1ea39c851d345be8)
+
 ## Tech Stack
 
-- Angular 17
-- Sass
+### Frontend
 
-## Main Features
+- [Angular 17](https://blog.angular.io/introducing-angular-v17-4d7033312e4b)
+- [Sass](https://sass-lang.com/)
 
-- Standalone components
-- Page not found component
-- [NgOptimizedImage](https://angular.dev/guide/image-optimization) with placeholder
+### Backend
+
+- [Vercel](https://vercel.com/) (static hosting)
+
+## Key Features
+
+- 404 page
+- [NgOptimizedImage](https://angular.dev/guide/image-optimization)
 - [ImageKit CDN](https://imagekit.io/)
-- Shell scripting (see [PR #1](https://github.com/johnnygerard/fem-product-preview-card-component/pull/1))
-- [GitHub Actions](.github/workflows):
-  - Vercel deployments
-  - CodeQL analysis
+
+## Automated Tasks
+
+- Project initialization with shell script (see [PR #1](https://github.com/johnnygerard/fem-product-preview-card-component/pull/1))
+- Vercel deployments:
+  - [Preview](.github/workflows/vercel-preview.yaml)
+  - [Production](.github/workflows/vercel-production.yaml)
+- [CodeQL analysis](https://codeql.github.com/) (see [workflow](.github/workflows/codeql.yaml))
 
 ## Developer Tools
 
 - VS Code
 - Figma
-- GitHub Copilot
 
-## Links
+## VS Code Extensions
 
-- [Website](https://fem-product-preview-card-component-jgerard.vercel.app) hosted with [Vercel](https://vercel.com/)
-- [Solution](https://www.frontendmentor.io/solutions/product-preview-card-component-with-404-OFsbTsDSQ-)
-- [Lighthouse report](https://googlechrome.github.io/lighthouse/viewer/?gist=3bdd3ce93f4b3f6b1ea39c851d345be8)
+- [Angular Language Service](https://marketplace.visualstudio.com/items?itemName=angular.ng-template)
+- [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+- [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=github.copilot) (active subscription required)
 
 ## Screenshots
 
