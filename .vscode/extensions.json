@@ -2,6 +2,7 @@
   "recommendations": [
     "angular.ng-template",
     "esbenp.prettier-vscode",
-    "dbaeumer.vscode-eslint"
+    "dbaeumer.vscode-eslint",
+    "github.copilot"
   ]
 }
